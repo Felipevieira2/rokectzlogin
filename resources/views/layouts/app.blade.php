@@ -6,9 +6,8 @@
     <link rel="icon" href="{{ asset('img/favicon.ico') }}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>Rockeetz ADMIN</title>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
     <!-- Scripts -->
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
@@ -22,10 +21,11 @@
 </head>
 <body>
     <div id="app">
-
         <main class="py-4">
             @yield('content')
         </main>
     </div>
+
+
 </body>
 </html>
